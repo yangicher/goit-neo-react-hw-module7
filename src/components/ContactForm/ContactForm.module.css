@@ -3,7 +3,8 @@
   flex-direction: column;
   width: 300px;
   align-items: flex-start;
-  border: 1px solid;
+  border: 2px solid black;
+  border-radius: 5px;
   padding: 16px;
   gap: 16px;
 }
