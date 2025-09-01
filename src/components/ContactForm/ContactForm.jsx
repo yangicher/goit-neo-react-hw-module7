@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { object, string } from "yup";
 
 import styles from "./ContactForm.module.css";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contactsOps";
 
 const contactSchema = object({
   name: string().min(3, "Too short").max(50, "Too long").required("Required"),
